@@ -2,6 +2,7 @@ const img =  document.getElementById('background');
 const name =  document.getElementById('name');
 const text =  document.getElementById('text');
 const choice =  document.getElementById('choice');
+const pers =  document.getElementById('pers');
 let p1 = document.getElementById('p1');
 let p2 = document.getElementById('p2');
 let p3 = document.getElementById('p3');
@@ -130,6 +131,11 @@ break;
 
 case 22:
 text.textContent = "Хлоп... я почувствовал чью то руку на плече.";
+break;
+
+case 23:
+text.textContent = "Привет, ты новенький?";
+pers.style.display ="block";
 break;
 
 }

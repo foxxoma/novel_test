@@ -1,8 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
-	background-color: #000 ;
-	color:#fff;
+
+	color:#000;
 }
 .background {
 width: 100%;
@@ -13,7 +13,7 @@ display: block;
 width: 100%;
 display: block;
 
-border-bottom: 1px solid #7FFF00;
+border-bottom: 2px solid #7FFF00;
 }
 .text{
 width: 100%;
@@ -37,10 +37,30 @@ top: 50%;
 margin-left: -25%;
 margin-top: -20%;
 display: none;
+
 }
 .choice p {
 	background: none;
 	font-size: 20px;
 	padding: 20px;
+	color: #ffffff;
+}
 
+.pers {
+
+position: absolute;
+text-align:center;
+width: 20%;
+height: 57%;
+left:40%; 
+top: 24.6%;
+display: none;
+
+}
+.pers img {
+width: 100%;
+background-color: none;
+height: 100%;
+left:40%; 
+top: 20%;
 }
