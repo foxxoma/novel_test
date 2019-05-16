@@ -45,7 +45,7 @@ switch (i) {
 choice.style.display = "block";
 
   p1.textContent = "Ждать";
- p1.addEventListener("click", function(){i = 11; check = true; choice.style.display = "none"});
+ p1.addEventListener("click", function(){i = 12; check = true; choice.style.display = "none"});
 
   p2.textContent = "Попробовать окно";
  p2.addEventListener("click", function(){i = 7; check = true; choice.style.display = "none"});
