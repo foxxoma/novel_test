@@ -105,9 +105,35 @@ case 17:
 text.textContent = "Что дальше?";
 break;
 case 18:
-text.textContent = "...";
+text.textContent = "В дали я заметил силут.. но.. что у меня с глазами, я почти ничего не вижу?";
 break;
+case 19:
+      check = false;
+    choice.style.display = "block";
+
+      p1.textContent = "Пойти за силуэтом";
+    p1.addEventListener("click", function(){i = 20; check = true; choice.style.display = "none"});
+
+      p2.textContent = "Попробовать прийти в себя";
+    p2.addEventListener("click", function(){i = 22; check = true; choice.style.display = "none"});
+    
+      
+break;
+
+    case 20:
+    text.textContent = "Я неуыеренно направился вперед...";
+    break;
+
+    case 21:
+    text.textContent = "Он все удалялся и удалялся... что за?";
+    break;
+
+case 22:
+text.textContent = "Хлоп... я почувствовал чью то руку на плече.";
+break;
+
 }
+
 }, 10);
 
 //parent.children[0]
