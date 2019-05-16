@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #000 ;
+	color:#fff;
+}
+.background {
+width: 100%;
+
+display: block;
+}
+.name {
+width: 100%;
+display: block;
+
+border-bottom: 1px solid #7FFF00;
+}
+.text{
+width: 100%;
+height: 25%;
+display: block;
+
+padding: 10px;
+}
+.background img{
+width: 100%;
+}
+.choice{
+padding-top: 40px;
+position: absolute;
+text-align:center;
+background: rgba( 0, 0, 0, 0.5);
+width: 50%;
+height: 50%;
+left:50%; 
+top: 50%;
+margin-left: -25%;
+margin-top: -20%;
+display: none;
+}
+.choice p {
+	background: none;
+	font-size: 20px;
+	padding: 20px;
+
+}
